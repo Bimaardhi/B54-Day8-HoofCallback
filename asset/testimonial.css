@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(to right, #4682B4, #00FFFF, #00FA9A);
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    border-radius: 10px;
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-image: linear-gradient(-90deg, red, yellow);
+    box-shadow: 10px 10px 10px;
+}
+
+
+
+.testimonial img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.author {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-testimonial {
+    width: 100%;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-rating {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.rating-btn {
+    margin: 20px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, #FF0000, #FFC0CB);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(105, 105, 137);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .testimonial {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .testimonial {
+        width: 100%;
+    }
+
+}
